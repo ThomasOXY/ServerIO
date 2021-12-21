@@ -1,17 +1,18 @@
 .premade{
     width: 100%;
     min-height:60vh ;
-    background-color: #d1d8e0 ;
+  
     text-align: center;
     display: flex;
     flex-flow:column ;
     align-items: center;
     h1{
-        color: #353b48;
+        color: white;
         border-bottom: 2px solid black;
     }
 
 .build-list{
+    color: white;
     display: flex;
     flex-flow: row;
     align-items: center;
@@ -26,7 +27,7 @@
         align-items: center;
         justify-content: center;
         flex-flow: column;
-        border: 2px solid ;
+        border: 2px solid black;
         border-radius: 15px;
         padding: 1em;
         margin: 1em;
@@ -47,6 +48,7 @@ button{
     animation:  gradient 300s ease infinite;
 }
 .builder{
+    color: white;
 display: flex;
 align-items: center;
 margin: 2em;
@@ -55,7 +57,7 @@ flex-flow: column;
 max-width: 100%;
 min-height: 60vh ;
 h1{
-    color: #353b48;
+    color: white;
         border-bottom: 2px solid black;  
 }
 form{
@@ -68,7 +70,8 @@ form{
     padding: 2em;
 select{
     margin: .6em;
-    border: 3px solid #353b48;
+    color: white;
+    border: 3px solid black;
     animation:  gradient 300s ease infinite;
     border-radius: 15px;
     width: 10em;
