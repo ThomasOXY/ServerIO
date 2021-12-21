@@ -1,5 +1,6 @@
 @import "first";
 @import "servers";
+@import "kontakt";
 * {
     font-family: "Poppins", sans-serif;
 }
@@ -89,7 +90,7 @@ body {
         width: 100%;
 
         display: flex;
-        align-items: center;
+        align-items: Center;
         justify-content: center;
         flex-flow: row;
     }
