@@ -424,6 +424,7 @@ body {
 span {
   position: fixed;
   margin-left: .5em;
+  color: white;
 }
 
 .sidenav {
