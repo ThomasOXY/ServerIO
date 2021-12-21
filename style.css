@@ -69,7 +69,7 @@
   border-radius: 10px;
   padding: 1em;
   max-width: 40%;
-  background: #0a0d16;
+  background: #101524;
   text-align: center;
 }
 
@@ -122,6 +122,7 @@
 .premade .item-prebuild {
   width: 250px;
   height: 400px;
+  background: #101524;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,6 +181,7 @@ button {
 }
 
 .builder form {
+  background: #101524;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -311,7 +313,7 @@ body {
   border-radius: 10px;
   padding: 1em;
   max-width: 40%;
-  background: #0a0d16;
+  background: #101524;
 }
 
 .Team {
@@ -375,7 +377,7 @@ body {
   border-radius: 15px;
   padding: 1em;
   margin: 1em;
-  background: #0a0d16;
+  background: #101524;
   text-align: center;
   color: white;
 }

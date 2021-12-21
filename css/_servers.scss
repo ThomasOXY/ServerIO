@@ -19,10 +19,12 @@
     justify-content: center;
     padding: 1em;
     margin: 1em;
+    
 }
     .item-prebuild{
         width: 250px;
         height: 400px;
+        background: #101524;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -55,12 +57,14 @@ margin: 2em;
 justify-content: center; 
 flex-flow: column;
 max-width: 100%;
+
 min-height: 60vh ;
 h1{
     color: white;
         border-bottom: 2px solid black;  
 }
 form{
+    background: #101524;
     display: flex;
     align-items: center;
     justify-content: center;
