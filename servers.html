@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>ServerIO</title>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="servers.html">Servery</a>
+        <a href="first.html">První zapnutí</a>
+        <a href="#">FAQ</a>
+        <a href="#">OnlineChat</a>
+        <a href="#">Kontakt</a>
+      </div>     
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+
+
+  <section class="UPsec">
+      <h1>Naše Dostupné buildy.</h1>
+  </section>
+
+<section class="premade">
+    <h1>Již sestavené buildy..</h1>
+    <div class="build-list">
+
+ 
+    <div class="item-prebuild">
+
+        <h2>Beginner</h2>
+        <p>Procesor: Intel ATOM</p>
+        <p>RAM: 4GB</p>
+        <p>Uložiště (HDD): 128GB</p>
+        <button>Objednat!</button>
+    </div>
+
+    <div class="item-prebuild">
+
+        <h2>intermediate</h2>
+        <p>Procesor: Intel ATOM</p>
+        <p>RAM: 8GB</p>
+        <p>Uložiště(SSD): 128GB</p>
+        <button>Objednat!</button>
+    </div>
+
+    <div class="item-prebuild">
+
+        <h2>Professional</h2>
+        <p>Procesor: Intel ATOM</p>
+        <p>RAM: 16GB</p>
+        <p>Uložiště(SSD): 256GB</p>
+        <button>Objednat!</button>
+    </div>
+</div>
+</section>
+
+<section class="builder">
+
+    <h1>Vytvoř Build podle sebe!</h1>
+
+    <div class="build">
+
+        <form action="">
+
+            <h2>Procesor:</h2>
+            <select name="Procesor" id="Procesor">
+                <option value="Cortrex">Cortex</option>
+                <option value="intelAtom">Intel Atom</option>
+            </select>
+
+            <h2>Operační pamět:</h2>
+            <select name="RAM" id="RAM">
+                <option value="4GB">4GB</option>
+                <option value="8GB">8GB</option>
+                <option value="16GB">16GB</option>
+            </select>
+
+            <h2>Uložiště:</h2>
+            <select name="Disk" id="Disk">
+                <option value="SSD">SSD</option>
+                <option value="HDD">HDD</option>
+            </select>
+            <select name="DiskSpace" id="DiskSpace">
+                <option value="SSD">128GB</option>
+                <option value="HDD">256GB</option>
+            </select>
+
+            <button>Zkontrolovat</button>
+        
+        </form>
+
+
+
+    </div>
+</section>
+<footer>
+    <p>
+       Made with love by ThomasOXY.
+    </p>
+   
+</footer>
+</body>
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+</html>
