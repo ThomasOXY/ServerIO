@@ -22,57 +22,36 @@
     <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
       >&#9776;</span
     >
-
     <section class="UPsec">
-      <h1>Kontakt.</h1>
-      <h4>Našli jste chybu? nebo se chcete na něco zeptat?</h4>
+        <h1>Napsat ticket</h1>
     </section>
-    <section class="kontakt">
-    
-      <section class="Team">
+    <section class="ticketsec">
 
-    
+   
+    <form action="">
+        <h4>Pro:</h4>
+       <input value="Tomáš Špale" type="text">
+        <h4>OD:</h4>
+        <input placeholder="Vaše Jméno" type="text">
+        <h4>Váš email:</h4>
+        <input placeholder="email" type="text">
+       
+        <h4>Vaše zpráva:</h4>
+        <input class="mess" type="text">
+        <br>
+        <button>Odeslat</button>       
+    </form>
 
-        <div class="items">
-            <div class="id-card">
-
-                <img src="img/selfietom.png" alt="">
-                <h4>Tomáš Špale</h4>
-               <P>Zeptejte se mě ohledně softwaru! </P>
-               <button> <a href="ticket.html">Napsat ticket</a> </button>
-    
-                
-            
-            </div>
-
-
-
-
-            <div class="id-card">
-
-                <img src="img/viteprofi.png" alt="">
-                <h4>Vít Hájek</h4>
-                <P>Zeptejte se mě ohledně hardwaru! </P>
-                <button> <a href="ticket.html">Napsat ticket</a> </button>
-    
-
-            </div>
-        </div>
-
-    </section>
-
-    
 </section>
 
-    </section>
 
 
-  </body>
 
-  <footer>
+</body>
+<footer>
     <p>Made with love by ThomasOXY.</p>
   </footer>
-  <script>
+<script>
     function openNav() {
       document.getElementById("mySidenav").style.width = "250px";
     }
