@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="index.html">Home</a>
+      <a href="servers.html">Servery</a>
+      <a href="first.html">První zapnutí</a>
+     <a onclick="faq()">FAQ</a>
+      <a href="#">OnlineChat</a>
+      <a onclick="kontakt()">Kontakt</a>
+    </div>
+    <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+      >&#9776;</span
+    >
+
+    <section class="UPsec">
+      <h1>Kontakt.</h1>
+      <h4>Našli jste chybu? nebo se chcete na něco zeptat?</h4>
+    </section>
+    <section class="kontakt">
+    
+      <section class="Team">
+
+    
+
+        <div class="items">
+            <div class="id-card">
+
+                <img src="img/selfietom.png" alt="">
+                <h4>Tomáš Špale</h4>
+               <P>Zeptejte se mě ohledně softwaru! </P>
+                <button>Napsat ticket</button>
+                
+            
+            </div>
+
+
+
+
+            <div class="id-card">
+
+                <img src="img/viteprofi.png" alt="">
+                <h4>Vít Hájek</h4>
+                <P>Zeptejte se mě ohledně hardwaru! </P>
+                <button>Napsat ticket</button>
+    
+
+            </div>
+        </div>
+
+    </section>
+
+    
+</section>
+
+    </section>
+
+
+  </body>
+
+  <footer>
+    <p>Made with love by ThomasOXY.</p>
+  </footer>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+
+   
+        function home(){
+          document.body.classList.add("animate-out");
+          setTimeout(() => {   window.location.href = 'index.html'; }, 300);
+         
+      }
+      
+      function servers(){
+       document.body.classList.add("animate-out");
+       setTimeout(() => {   window.location.href = 'servers.html'; }, 300);
+      
+   }
+   
+   function first(){
+       document.body.classList.add("animate-out");
+       setTimeout(() => {   window.location.href = 'first.html'; }, 300);
+      
+   }
+   function kontakt(){
+       document.body.classList.add("animate-out");
+       setTimeout(() => {   window.location.href = 'kontakt.html'; }, 300);
+      
+   }
+
+
+</script>
+</html>
