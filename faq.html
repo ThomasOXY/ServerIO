@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a onclick="home()">Home</a>
+      <a onclick="servers()">Servery</a>
+      <a onclick="first()">První zapnutí</a>
+      <a href="#">FAQ</a>
+      <a href="#">OnlineChat</a>
+      <a onclick="kontakt()">Kontakt</a>
+    </div>
+    <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+      >&#9776;</span>
+    
+      <section class="UPsec">
+        <h1>FAQ (ČASTO KLADENÉ OTÁZKY)</h1>
+
+    </section>
+
+<section class="faq">
+
+
+
+        <div class="ask">
+
+            <h3>Je vás Systém opensource?</h3>
+            <div class="anwser">
+            <p>
+                Náš systém opensource není. Snažíme se systém zlepšovat každým dnem.
+                Systém je velice náchylný na jakékoliv zásahy.. Proto nechceme náš sourcecode zveřejnovat.
+            </p>
+            <h4 class="color">Tomáš Špale [SOFTWARE DEVELOPER]</h4></h4>
+        </div>
+        </div>
+        <div class="ask">
+
+            <h3>Je k dispozici schéma zapojení desky ?</h3>
+            <div class="anwser">
+            <p>
+              Naše deska je unikátně vyrobena mnou pro naše účely. Proto není možné dát na stažení
+              schéma..
+            </p>
+            <h4 class="color">Vít Hájek [HARDWARE DEVELOPER]</h4></h4>
+        </div>
+        </div>
+        <div class="ask">
+  
+        <h3>Jak funguje Váš software?</h3>
+        <div class="anwser">
+        <p>
+            Náš software je od základu naprogramovaný mnou. Běží jako webserver a bridge mezi naším 
+            serverem.
+        </p>
+        <h4 class="color">Tomáš Špale [SOFTWARE DEVELOPER]</h4>
+    </div>
+
+    <h3>Na čem váš systém běží?</h3>
+    <div class="anwser">
+    <p>
+       OS na serverech je námi upravený Linux (Debian). Verze je stále vy vývoji (Alpha 0.0.2)
+    </p>
+    <h4 class="color">Tomáš Špale [SOFTWARE DEVELOPER]</h4>
+</div>
+    </div>    
+    </section>
+
+
+
+
+
+
+
+
+
+
+    
+      <footer>
+        <p>Made with love by ThomasOXY.</p>
+      </footer>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+    
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    
+       
+            function home(){
+              document.body.classList.add("animate-out");
+              setTimeout(() => {   window.location.href = 'index.html'; }, 300);
+             
+          }
+          
+          function servers(){
+           document.body.classList.add("animate-out");
+           setTimeout(() => {   window.location.href = 'servers.html'; }, 300);
+          
+       }
+       
+       function first(){
+           document.body.classList.add("animate-out");
+           setTimeout(() => {   window.location.href = 'first.html'; }, 300);
+          
+       }
+       function kontakt(){
+           document.body.classList.add("animate-out");
+           setTimeout(() => {   window.location.href = 'kontakt.html'; }, 300);
+          
+       }
+    
+    
+    </script>
+    </body>

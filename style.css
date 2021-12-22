@@ -243,6 +243,67 @@ button {
   max-width: 100%;
 }
 
+.faq {
+  width: 100%;
+  min-height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  color: white;
+}
+
+.faq .ask {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  text-align: center;
+}
+
+.faq .anwser {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 1em;
+  background: #101524;
+  text-align: center;
+  color: white;
+  max-width: 40%;
+}
+
+.color {
+  color: #1cb0d4;
+}
+
+@media only screen and (max-width: 900px) {
+  .faq .anwser {
+    max-width: 80%;
+  }
+}
+
 * {
   font-family: "Poppins", sans-serif;
 }
