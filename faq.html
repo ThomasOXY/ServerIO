@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -22,7 +22,8 @@
       <a onclick="home()">Home</a>
       <a onclick="servers()">Servery</a>
       <a onclick="first()">První zapnutí</a>
-      <a href="#">FAQ</a>
+
+      <a onclick="faq()">FAQ</a>
       <a href="#">OnlineChat</a>
       <a onclick="kontakt()">Kontakt</a>
     </div>
@@ -124,6 +125,11 @@
        function kontakt(){
            document.body.classList.add("animate-out");
            setTimeout(() => {   window.location.href = 'kontakt.html'; }, 300);
+          
+       }
+       function faq(){
+           document.body.classList.add("animate-out");
+           setTimeout(() => {   window.location.href = 'faq.html'; }, 300);
           
        }
     

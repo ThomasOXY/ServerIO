@@ -20,7 +20,7 @@
         <a onclick="home()">Home</a>
         <a onclick="servers()">Servery</a>
         <a onclick="first()">První zapnutí</a>
-        <a href="#">FAQ</a>
+       <a onclick="faq()">FAQ</a>
         <a href="#">OnlineChat</a>
         <a onclick="kontakt()">Kontakt</a>
       </div>     
@@ -121,6 +121,11 @@
        setTimeout(() => {   window.location.href = 'kontakt.html'; }, 300);
       
    }
+   function faq(){
+           document.body.classList.add("animate-out");
+           setTimeout(() => {   window.location.href = 'faq.html'; }, 300);
+          
+       }
    
    </script>
 </footer>
