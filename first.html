@@ -1,110 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-
+  <body>
     <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a onclick="home()">Home</a>
-        <a onclick="servers()">Servery</a>
-        <a onclick="first()">První zapnutí</a>
-        <a href="#">FAQ</a>
-        <a href="#">OnlineChat</a>
-        <a href="kontakt.html">Kontakt</a>
-      </div>     
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a onclick="home()">Home</a>
+      <a onclick="servers()">Servery</a>
+      <a onclick="first()">První zapnutí</a>
+      <a href="#">FAQ</a>
+      <a href="#">OnlineChat</a>
+      <a onclick="kontakt()">Kontakt</a>
+    </div>
+    <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+      >&#9776;</span
+    >
 
     <section class="UPsec">
-        <h1>První seznámení s produktem.</h1>
-        
+      <h1>První seznámení s produktem.</h1>
     </section>
     <section class="firstMain">
-
-
-
-    <h1>Připojení</h1>
-    <p>
-        Vyndejte. ServerIO station z krabice poté jí zapujte do zásuvky.
-        a nejlépe připojte k lan síti. (Pokud nemáte možnost připojit lan
+      <h1>Připojení</h1>
+      <p>
+        Vyndejte. ServerIO station z krabice poté jí zapujte do zásuvky. a
+        nejlépe připojte k lan síti. (Pokud nemáte možnost připojit lan
         nastavení wifi uděláme později.)
+      </p>
+      <h1>První zapnutí!</h1>
+      <p>
+        Zdroj přepneme do zapnuté polohy. Server by se měl zapnout automaticky..
+        Na displayi se ukáže "SETUP" Vezmeme mobilní telefon, počítač (Chytré
+        zařízení s přístupem na internet). Do internetového prohlížeče zadáme
+        adresu serveru. (Např.: 192.168.1.122/) která se po chvilce zobrazí na
+        displayi. Po načtení stránky vás systém bude provázet dodělání instalece
+        systému.
+      </p>
 
-    </p>
-    <h1>První zapnutí!</h1>
-    <p>Zdroj přepneme do zapnuté polohy. Server by se měl zapnout
-        automaticky.. Na displayi se ukáže "SETUP"
+      <h1>Po dokončení instalace</h1>
 
-        Vezmeme mobilní telefon, počítač (Chytré zařízení s přístupem na internet).
-        Do internetového prohlížeče zadáme adresu serveru. (Např.: 192.168.1.122/)
-        která se po chvilce zobrazí na displayi.
-        Po načtení stránky vás systém bude provázet dodělání instalece systému.
-    </p>
-
-    <h1>Po dokončení instalace</h1>
-
-    <p>
-        Máme doinstalovano display ukazuje tři ikony "Zapnout" "Restart" "Vypnout".
-        Zapneme server. po zapnutí Server se rozbliká dvakrát zeleně.
+      <p>
+        Máme doinstalovano display ukazuje tři ikony "Zapnout" "Restart"
+        "Vypnout". Zapneme server. po zapnutí Server se rozbliká dvakrát zeleně.
         v případě jakékoliv chyby se podsvit změní na pulzování červené barvy.
-    </p>
+      </p>
 
-    <h1> GUI Menu</h1>
+      <h1>GUI Menu</h1>
 
-    <p>
-        Display menu.. ukazuje základní informace o serveru. například zatížení,konzoli serveru.
-        Přepínat informace na displayi je možné tlačítkem vedle displaye.
-    </p>
-            
-</section>
-<footer>
-    <p>
-        Made with love by ThomasOXY.
-    </p>
-   
-</footer>
+      <p>
+        Display menu.. ukazuje základní informace o serveru. například
+        zatížení,konzoli serveru. Přepínat informace na displayi je možné
+        tlačítkem vedle displaye.
+      </p>
+    </section>
+    <footer>
+      <p>Made with love by ThomasOXY.</p>
+    </footer>
 
-<script>
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-    }
-    
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-    }
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
     </script>
 
-<script>
-     function home(){
-       document.body.classList.add("animate-out");
-       setTimeout(() => {   window.location.href = 'index.html'; }, 300);
-      
-   }
-   
-   function servers(){
-    document.body.classList.add("animate-out");
-    setTimeout(() => {   window.location.href = 'servers.html'; }, 300);
-   
-}
+    <script>
+      function home() {
+        document.body.classList.add("animate-out");
+        setTimeout(() => {
+          window.location.href = "index.html";
+        }, 300);
+      }
 
-function first(){
-    document.body.classList.add("animate-out");
-    setTimeout(() => {   window.location.href = 'first.html'; }, 300);
-   
-}
+      function servers() {
+        document.body.classList.add("animate-out");
+        setTimeout(() => {
+          window.location.href = "servers.html";
+        }, 300);
+      }
 
+      function first() {
+        document.body.classList.add("animate-out");
+        setTimeout(() => {
+          window.location.href = "first.html";
+        }, 300);
 
-</script>
-
-</body>
-
+        function kontakt() {
+          document.body.classList.add("animate-out");
+          setTimeout(() => {
+            window.location.href = "kontakt.html";
+          }, 300);
+        }
+      }
+    </script>
+  </body>
 </html>

@@ -22,7 +22,7 @@
         <a onclick="first()">První zapnutí</a>
         <a href="#">FAQ</a>
         <a href="#">OnlineChat</a>
-        <a href="kontakt.html">Kontakt</a>
+        <a onclick="kontakt()">Kontakt</a>
       </div>     
       <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
@@ -116,7 +116,11 @@
        setTimeout(() => {   window.location.href = 'first.html'; }, 300);
       
    }
-   
+   function kontakt(){
+       document.body.classList.add("animate-out");
+       setTimeout(() => {   window.location.href = 'kontakt.html'; }, 300);
+      
+   }
    
    </script>
 </footer>
