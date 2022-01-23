@@ -1,8 +1,6 @@
 @import "first";
 @import "servers";
-@import "kontakt";
-@import "faq";
-@import "ticket";
+
 * {
     font-family: "Poppins", sans-serif;
 }
@@ -187,8 +185,12 @@ span{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+
   }
+  .red{
+    color: #cc1111 !important; 
   
+}
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;

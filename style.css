@@ -226,139 +226,6 @@ button {
   }
 }
 
-.kontakt {
-  width: 100%;
-  min-height: 75vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.kontakt a {
-  text-decoration: none;
-  color: white;
-}
-
-.faq {
-  width: 100%;
-  min-height: 60vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  color: white;
-}
-
-.faq .ask {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  text-align: center;
-}
-
-.faq .anwser {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  color: white;
-  border: 3px solid black;
-  border-radius: 10px;
-  padding: 1em;
-  background: #101524;
-  text-align: center;
-  color: white;
-  max-width: 40%;
-}
-
-.color {
-  color: #1cb0d4;
-}
-
-@media only screen and (max-width: 900px) {
-  .faq .anwser {
-    max-width: 80%;
-  }
-}
-
-.ticketsec {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.ticketsec form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  color: white;
-  border-radius: 10px;
-  padding: 1em;
-}
-
-.ticketsec form input {
-  border: none;
-  color: white;
-  border-radius: 15px;
-  width: 20em;
-  height: 3em;
-  text-align: center;
-  background: #4a5164;
-}
-
-.ticketsec form .mess {
-  width: 80%;
-  height: 20em;
-  color: white;
-  border-radius: 10px;
-  padding: 1em;
-  background: #4a5164;
-}
-
-@media only screen and (max-width: 900px) {
-  .ticketsec form .mess {
-    width: 100%;
-  }
-}
-
 * {
   font-family: "Poppins", sans-serif;
 }
@@ -607,6 +474,10 @@ span {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding-top: 60px;
+}
+
+.red {
+  color: #cc1111 !important;
 }
 
 .sidenav a {
